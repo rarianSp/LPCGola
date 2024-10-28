@@ -1,0 +1,211 @@
+<ead xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ead3.archivists.org/schema/">
+    <control>
+        <recordid>HR-DAVŽ-SCKC-126, A.5.7</recordid>
+        <filedesc>
+            <titlestmt>
+                <titleproper lang="hrv">Arhivski popis (AP)</titleproper>
+            </titlestmt>
+        </filedesc>
+        <maintenancestatus value="new"></maintenancestatus>
+        <maintenanceagency>
+            <agencyname>DAVŽ-SCKC</agencyname>
+        </maintenanceagency>
+        <maintenancehistory>
+            <maintenanceevent>
+                <eventtype value="created"></eventtype>
+                <eventdatetime>2020</eventdatetime>
+                <agenttype value="human"></agenttype>
+                <agent>Ivana Posedi</agent>
+            </maintenanceevent>
+        </maintenancehistory>
+    </control>
+    <archdesc level="fonds">
+        <did>
+            <unitid countrycode="HR" repositorycode="DAVŽ">126</unitid>
+            <unittitle>Local people committee of the municipality of Gola</unittitle>
+            <unitdate>1445, 1948-1952</unitdate>
+            <physdescset>
+                <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                    <quantity>6</quantity>
+                    <unittype>books</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                    <quantity>6</quantity>
+                    <unittype>fascicles</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                    <quantity>0.1</quantity>
+                    <unittype>box</unittype>
+                </physdescstructured>
+                <physdescstructured coverage="whole" physdescstructuredtype="spaceoccupied">
+                    <quantity>0.6</quantity>
+                    <unittype>linear meters</unittype>
+                </physdescstructured>
+            </physdescset>
+        </did>
+        <bioghist><p></p></bioghist>
+        <custodhist>
+            <head>Archival history</head>
+            <p>Archival materials of LPC Gola were transferred into the Archives in 1962 by the District People's Committee Koprivnica together with the materials of other LPCs (order no. 42/3 of April 27, 1962, noted in the book of received materials no. 141/1962). The materials were placed in the archival collection center of Koprivnica and arranged after the acquisition.</p>
+        </custodhist>
+        <fileplan>
+            <list listtype="ordered">
+                <item>1. Work of central bodies</item>
+                <item>1.1. Minutes of sessions</item>
+                <item>2. General administrative affairs </item>
+                <item>2.1. General and organizational affairs</item>
+                <item>2.1.1. File and document register</item>
+                <item>2.1.1.1. FandD register</item>
+                <item>2.1.1.2. FandD register</item>
+                <item>2.1.2. Index of general documents </item>
+                <item>2.1.3. Delivery record</item>
+                <item>2.1.4. General documents</item>
+                <item>3. Construction works</item>
+                <item>3.1. Building permits</item>
+                <item>4. Financial documents</item>
+                <item>4.1. Tax diary</item>
+            </list>
+        </fileplan>
+        <scopecontent><p></p></scopecontent>
+        <arrangement>
+            <head>System of arrangement </head>
+            <p>Building permits of the fonds are arranged with other Local people’s committees building permits.</p>
+        </arrangement>
+        <userestrict>
+            <p></p>
+        </userestrict>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unitid>1</unitid>
+                    <unittitle>Work of central bodies</unittitle>
+                </did>
+                <c02 level="item"> 
+                    <did>
+                        <unitid>1.1</unitid>
+                        <unittitle>Minutes from the sessions</unittitle>
+                        <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>1</quantity>
+                            <unittype>book</unittype>
+                        </physdescstructured>
+                    </did>
+                </c02>
+            </c01>
+        </dsc>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unitid>2</unitid>
+                    <unittitle>General administrative affairs</unittitle>
+                </did>
+                <c02 level="subseries">
+                <did>
+                    <unitid>2.1</unitid>
+                    <unittitle>General and organizational affairs</unittitle>
+                </did>
+                <scopecontent><p></p></scopecontent>
+                    <c03 level="subseries">
+                    <did>
+                        <unitid>2.1.1</unitid>
+                        <unittitle>File and document register</unittitle>
+                    </did>
+                    <scopecontent><p></p></scopecontent>
+                        <c04 level="item">
+                        <did>
+                            <unitid>2.1.1.1</unitid>
+                            <unittitle>File and document register</unittitle>
+                            <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                                <quantity>1</quantity>
+                                <unittype>book</unittype>
+                            </physdescstructured>
+                        </did>
+                        <scopecontent><p></p></scopecontent>
+                        </c04>
+                        <c04 level="item">
+                        <did>
+                            <unitid>2.1.1.2</unitid>
+                            <unittitle>File and document register</unittitle>
+                            <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                                <quantity>1</quantity>
+                                <unittype>book</unittype>
+                        </physdescstructured>
+                        </did>
+                        <scopecontent><p></p></scopecontent>
+                        </c04>
+                    </c03>
+                    <c03 level="item">
+                    <did>
+                        <unitid>2.1.2</unitid>
+                        <unittitle>Index of general documents</unittitle>
+                        <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>1</quantity>
+                            <unittype>book</unittype>
+                        </physdescstructured>
+                    </did>
+                    <scopecontent><p></p></scopecontent>
+                    </c03>
+                    <c03 level="subseries">
+                    <did>
+                        <unitid>2.1.3</unitid>
+                        <unittitle>Delivery record</unittitle>
+                        <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>1</quantity>
+                            <unittype>book</unittype>
+                        </physdescstructured>
+                    </did>
+                    <scopecontent><p></p></scopecontent>
+                    </c03>
+                    <c03 level="subseries">
+                    <did>
+                        <unitid>2.1.4</unitid>
+                        <unittitle>General documents</unittitle>
+                        <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>6</quantity>
+                            <unittype>fascicles</unittype>
+                        </physdescstructured>
+                    </did>
+                    <scopecontent><p></p></scopecontent>
+                    </c03>
+                </c02>
+            </c01>
+        </dsc>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unitid>3</unitid>
+                    <unittitle>Construction works</unittitle>
+                </did>
+                <c02 level="item">
+                <did>
+                    <unitid>3.1</unitid>
+                    <unittitle>Building permits</unittitle>
+                    <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>0.1</quantity>
+                            <unittype>box</unittype>
+                        </physdescstructured>
+                </did>
+                <scopecontent><p></p></scopecontent>
+                </c02>
+            </c01>
+        </dsc>
+        <dsc>
+            <c01 level="series">
+                <did>
+                    <unitid>4</unitid>
+                    <unittitle>Financial documents</unittitle>
+                </did>
+                <c02 level="item">
+                <did>
+                    <unitid>4.1</unitid>
+                    <unittitle>Tax diary</unittitle>
+                    <physdescstructured coverage="part" physdescstructuredtype="carrier">
+                            <quantity>1</quantity>
+                            <unittype>book</unittype>
+                        </physdescstructured>
+                </did>
+                <scopecontent><p></p></scopecontent>
+                </c02>
+            </c01>
+        </dsc>
+    </archdesc>
+</ead>

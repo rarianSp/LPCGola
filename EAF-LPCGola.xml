@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eaf>    
+    <control>
+        <recordID/>
+        <maintenanceAgency>
+            <agencyCode></agencyCode>
+            <agencyName></agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <agent agentType="human">Arian Rajh</agent>
+                <eventDateTime>2024-10-28</eventDateTime>
+                <eventDescription>Creation</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <sources>
+            <source>HR-DAVŽ-SCKC-126</source>
+        </sources>
+        <languageDeclaration languageCode="eng"/>
+    </control>
+    <functionsDescription>
+        <identity>
+            <functionType value="Function"/>
+            <nameEntry>Protection of public health, raising public health awareness, care for minors, assistance for war invalids, and care for the infirm</nameEntry>
+        </identity>
+        <description>
+            <functionDates>
+                <dateRange>
+                    <fromDate>1946</fromDate>
+                    <toDate>1952</toDate>
+                </dateRange>
+            </functionDates>
+            <functionDescription>
+                <p>Protection of public health and raising public health awareness, as well as care for minors, especially those in employment; assistance for war invalids and care for the infirm.</p>
+            </functionDescription>
+            <functionHistory>
+                <p>The function was prescribed by the General Law on People's Committees in 1946.</p>
+            </functionHistory>
+            <legislations>
+                <legislation>
+                    <p>General Law on People's Committees (OG 43/1946)</p>
+                </legislation>
+            </legislations>
+            <subfunctionDescriptions>
+                <subfunction id="subfunction 9" sequence="1">
+                        <identity >
+                            <identityID>9.1</identityID>
+                            <functionType value="Function"/>
+                            <nameEntry>Protection of public health</nameEntry>
+                        </identity>
+                        <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
+                </subfunction>
+                <subfunction id="subfunction 9" sequence="2">
+                        <identity >
+                            <identityID>9.2</identityID>
+                            <functionType value="Function"/>
+                            <nameEntry>Raising public health awareness</nameEntry>
+                        </identity>
+                        <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
+                </subfunction>
+                <subfunction id="subfunction 9" sequence="3">
+                        <identity >
+                            <identityID>9.3</identityID>
+                            <functionType value="Function"/>
+                            <nameEntry>Care for minors</nameEntry>
+                        </identity>
+                        <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
+                </subfunction>
+                <subfunction id="subfunction 9" sequence="4">
+                        <identity >
+                            <identityID>9.4</identityID>
+                            <functionType value="Function"/>
+                            <nameEntry>Assistance for war invalids</nameEntry>
+                        </identity>
+                        <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
+                </subfunction>
+                <subfunction id="subfunction 9" sequence="5">
+                        <identity >
+                            <identityID>9.5</identityID>
+                            <functionType value="Function"/>
+                            <nameEntry>Care for the infirm</nameEntry>
+                        </identity>
+                        <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
+                </subfunction>
+            </subfunctionDescriptions>
+        </description>
+        <relations>
+            <relation>
+                <targetEntity targetType="agent">
+                    <part>Local people's committee of the municipality of Gola (1945-1952)</part>
+                </targetEntity>
+                <relationType>performed by</relationType>
+            </relation>
+        </relations>   
+    </functionsDescription>
+</eaf>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eag audience="external" xmlns="http://www.archivesportaleurope.net/Portal/profiles/eag_2012/">
+    <control>
+        <recordId/>
+        <maintenanceAgency></maintenanceAgency>
+            <agencyCode/>
+            <agencyName xml:lang="en"/>
+        <maintenanceStatus>new</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent xml:lang="eng">
+                <agent xml:lang="eng">Arian Rajh</agent>
+                <agentType>human</agentType>
+                <eventDateTime>2024-20-27</eventDateTime>
+                <eventType>created</eventType>
+            </maintenanceEvent>
+        </maintenanceHistory>
+    </control>
+    <archguide>
+        <identity>
+            <autform xml:lang="hr" source="https://dav.hr">Arhivski sabirni centar Koprivnica, Državni arhiv u Varaždinu</autform>
+            <parform xml:lang="en">Collection center Koprivnica, State Archives of Varaždin</parform>
+        </identity>
+        <desc>
+            <repositories> 
+                <repository> 
+                    <geogarea>Europe</geogarea>
+                    <location localType="visitors address" longitude="16.8330436" latitude="46.1637624">
+                        <country>Croatia</country>
+                        <municipalityPostalcode xml:lang="hr">Koprivnica 48000</municipalityPostalcode>
+                        <street>Trg bana Josipa Jelačića 6</street>
+                    </location>
+                    <timetable>
+                        <opening source="https://dav.hr/koristenje-gradiva/">Reading rooms are open on weekdays from 8:00 a.m. to 2:00 p.m.</opening>
+                    </timetable>
+                    <access question="yes">
+                        <termsOfUse href="https://dav.hr/koristenje-gradiva/" xml:lang="hr">Rules of use</termsOfUse>
+                    </access>
+                    <accessibility queston="yes" href="https://dav.hr/digitalna-pristupacnost/" xml:lang="hr">Information on digital accessibility according to EN 301 549 V2.1.2 (2018-08)</accessibility> 
+                </repository>
+            </repositories> 
+        </desc>
+    </archguide>
+    <relations>
+        <eagRelation>
+            <relationEntry xml:lang="en">State Archives of Varaždin</relationEntry>
+        </eagRelation>
+    </relations>
+</eag>
