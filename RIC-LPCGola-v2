@@ -1,0 +1,258 @@
+@prefix dbo: <http://dbpedia.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<HR-DAVŽ-SCKC-126> a rico:RecordSet ;
+    rico:identifier "HR-DAVŽ-SCKC-126" ;
+    rico:name "Local people committee of the municipality of Gola" ;
+    rico:conditionsOfAccess "Reading rooms are open on weekdays from 8:00 a.m. to 2:00 p.m." ;
+    rico:conditionsOfUse "Public archival material is available from its creation unless otherwise specified by Law. Public archival material for which availability restrictions have been established by Law can only be used by authorized persons in accordance with the regulations limiting the availability of the material. Public archival material containing classified and other secret information is available after the expiration of 40 years from the date of creation unless otherwise determined by another law. Public archival material that is not marked with a level of secrecy by the regulations governing the confidentiality of data and contains design and technical documentation of protected and military facilities, industrial plants, infrastructure facilities, etc., as well as data on natural and strategic resources of significance for the national security of the Republic of Croatia, and which has been submitted to the competent archive, is available after the expiration of the period of 40 years from its creation. Public archival material can be made available for use before the expiration of the deadlines if, based on the Law governing the right to access information and the protection of data confidentiality, it has been determined that the public interest, which is realized by the availability of data, outweighs the interests to be protected or if measures have been taken beforehand which ensure the protection of public and private interests due to which the limitation of availability has been determined, i.e., which prevent access to classified data." ;
+    rico:history "Archival materials of LPC Gola were transferred into the Archives in 1962 by the District People's Committee Koprivnica together with the materials of other LPCs (order no. 42/3 of April 27, 1962, noted in the book of received materials no. 141/1962). The materials were placed in the archival collection center of Koprivnica and arranged after the acquisition." ;
+    rico:hasOrHadLanguage [a rico:Language ;
+							rico:name "Croatian"; ] ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+							rico:quantity 0.6 ;
+							rico:unitOfMeasurement "linear meters" ; ] ;
+    rico:hasRecordSetType <Fonds> ;
+    rico:hasCreator <LPCGola> ;
+    rico:hasCollector <DAVŽ-SCKC> ;
+    rico:recordsResourceStructure "1 Work of central bodies, 2 General administrative affairs, 3 Construction works, 4 Financial documents" ;
+    rico:includesTransitive <Work_of_central_bodies> , <General_administrative_affairs> , <Construction_works> , <Financial_documents> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1945" ] ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ;
+								rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1952" ;
+								rico:type "to" ; ] .
+
+<Work_of_central_bodies> a rico:RecordSet ;
+    rico:name "1 Work of central bodies" ;    
+    rico:includesTransitive <Minutes_of_sessions> .
+
+<Minutes_of_sessions> a rico:Record ;
+    rico:name "1.1 Minutes of sessions" ;
+    rico:isIncludedInTransitive <Work_of_central_bodies> ;
+    rico:hasOrHadInstantiation <Minutes_of_sessions_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ;
+								rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1951" ;
+								rico:type "to" ; ] .
+
+<Minutes_of_sessions_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+					    rico:quantity 1 ;
+						rico:unitOfMeasurement "book" ; ] .
+
+
+<General_administrative_affairs> a rico:RecordSet ;
+    rico:name "2 General administrative affairs" ;
+    rico:directlyFollowsInSequence <Work_of_central_bodies> ;
+    rico:includesTransitive <General_and_organizational_affairs> .
+
+<General_and_organizational_affairs> a rico:RecordSet ;
+    rico:name "2.1 Genaral and organizational affairs" ;
+    rico:isIncludedInTransitive <General_administrative_affairs> ;
+    rico:includesTransitive <File_and_document_register> , <Index_of_general_documents> , <Delivery_record> , <General_documents> .
+
+<File_and_document_register> a rico:RecordSet ;
+    rico:name "2.1.1 File and document register" ;
+    rico:isIncludedInTransitive <General_and_organizational_affairs> ;
+    rico:directlyIncludes <FandDRegister1> , <FandDregister2> .
+
+<FandDRegister1> a rico:Record ;
+    rico:name "2.1.1.1 File and document register" ;
+    rico:isIncludedInTransitive <File_and_document_register> ;
+    rico:hasOrHadInstantiation <FandDRegister1_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1945" ; ] .
+
+
+<FandDRegister1_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+					    rico:quantity 1 ;
+						rico:unitOfMeasurement "book" ; ] .
+
+<FandDregister2> a rico:Record ;
+    rico:name "2.1.1.2 File and document register" ;
+    rico:isIncludedInTransitive <File_and_document_register> ;
+    rico:hasOrHadInstantiation <FandDRegister2_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ;
+								rico:type "from" ;
+								] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1951" ;
+								rico:type "to" ; ] .
+
+<FandDRegister2_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+					    rico:quantity 1 ;
+						rico:unitOfMeasurement "book" ; ] .
+
+<Index_of_general_documents> a rico:Record ;
+    rico:name "2.1.2 Index of general documents" ;
+    rico:directlyFollowsInSequence <General_and_organizational_affairs> ;
+    rico:isIncludedInTransitive <General_administrative_affairs> ;
+    rico:hasOrHadInstantiation <Index_of_general_documents_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1950" ; ] .
+
+<Index_of_general_documents_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+					    rico:quantity 1 ;
+						rico:unitOfMeasurement "book" ; ] .
+<Delivery_record> a rico:Record ;
+    rico:name "2.1.3 Delivery record" ;
+    rico:directlyFollowsInSequence <Index_of_general_documents> ;
+    rico:isIncludedInTransitive <General_administrative_affairs> ;
+    rico:hasOrHadInstantiation <Delivery_record_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ;
+								rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1950" ;
+								rico:type "to" ; ] .
+
+<Delivery_record_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+					    rico:quantity 1 ;
+						rico:unitOfMeasurement "book" ; ] .
+<General_documents> a rico:Record ;
+    rico:name "2.1.4 General documents" ;
+    rico:directlyFollowsInSequence <Delivery_record> ;
+    rico:isIncludedInTransitive <General_administrative_affairs> ;
+    rico:hasOrHadInstantiation <General_documents_instantiation> ;     
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ;
+								rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1951" ;
+								rico:type "to" ; ] .
+
+<General_documents_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:CarrierExtent ;
+							rico:quantity 6 ;
+							rico:unitOfMeasurement "fascicles" ; ] .
+
+<Construction_works> a rico:RecordSet ;
+    rico:name "3 Construction works" ;
+    rico:directlyFollowsInSequence <General_administrative_affairs> ;
+    rico:includesTransitive <Building_permits> .
+    
+<Building_permits> a rico:RecordSet ;
+    rico:name "3.1 Building permits" ;
+    rico:isIncludedInTransitive <Construction_works> ;
+    rico:hasOrHadInstantiation <Building_permits_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ; 
+                                rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1951" ;
+								rico:type "to" ; ] .
+    
+<Building_permits_instantiation>  a rico:Instantiation ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+							rico:quantity 0.1 ;
+							rico:unitOfMeasurement "box" ; ] .
+
+<Financial_documents> a rico:RecordSet ;
+    rico:name "4 Financial documents" ;
+    rico:directlyFollowsInSequence <Construction_works> ;
+    rico:includesTransitive <Tax_diary> .
+
+<Tax_diary> a rico:Record ;
+    rico:sequenceNumber "4.1" ;
+    rico:name "4.1 Tax diary" ;
+    rico:isIncludedInTransitive <Financial_documents> ;
+    rico:hasOrHadInstantiation <Tax_diary_instantiation> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1948" ; ] .
+
+<Tax_diary_instantiation> a rico:Instantiation ;
+    rico:hasExtent [ a rico:RecordResourceExtent ;
+							rico:quantity 1 ;
+							rico:unitOfMeasurement "book" ; ] .
+
+<LPCGola> a rico:CorporateBody ;
+    rico:name "Local People's Committee Gola" ;
+    rico:history "Local People's Committee Gola was founded in 1945, based on the Law on Changing the Name of People's Liberation Committees (OG 3/1945). It is territorially competent in ​​Gola, Novačka, and Otočka. Actual jurisdiction and organizational structure are regulated by the General Law on People's Committees from 1946 to 1952. The higher administrative body for LPC Gola is the People's District Council Koprivnica. Number of committee members: MNO Gola elected 33 members in 1947 and 1949, 17 from Gola, six from Otočka, and ten from Novačka. There were five members with executive functions. Purchase working group, Working group for communal affairs, Agricultural working group, Working group for workforce, Finance working group, Cultural and educational working group, Social and health working group, Working group for appeals and requests, Working group for national loan enrollment, Working group for threshing, Working group for procurement of fats, Working group for tax collection, and others. The LPC Gola was abolished in 1952 by the Law on the Division of the People's Republic of Croatia into districts, cities, and municipalities (OG 16/1952) when the Municipal People's Committee Gola was established, incorporating all the villages of the LPC Gola and LPC Gotalovo." ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1945" ; 
+                                rico:type "from" ; ] ;
+	rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1952" ;
+								rico:type "to" ; ] ;
+    rico:hasOrHadLanguage [a rico:Language ;
+							rico:name "Croatian"; ] ;
+    rico:hasOrHadCorporateBodyType <Public> ;
+    rico:hasSuccessor <MPCGola> .
+
+<MPCGola> a rico:CorporateBody ;
+    rico:name "Minicipal People's Committee Gola" ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "1952" ; 
+                                rico:type "from" ; ] ;
+    rico:hasOrHadCorporateBodyType <Public> ;
+    rico:isSuccessorOf <LPCGola> .
+
+<LPC> a rico:LegalStatus ;
+    rico:name "Local people's commitee" ;
+    rico:isOrWasRegulatedBy <GLPC> .
+
+<HR-DAVŽ-SCKC_Koprivnica> a rico:CorporateBody ;
+    rico:identifier "DAVŽ-SCKC" , "HR-DAVŽ / IM 217" ;
+    rico:name "Collection center Koprivnica, State Archives of Varaždin" ;
+    rico:hasOrHadCorporateBodyType <Public> ;
+    rico:location "Trg bana Josipa Jelačića 6, Koprivnica, Croatia" ;
+    rico:isAgentAssociatedWithPlace <Koprivnica> .
+
+<Public> a rico:CoporateBodyType .
+
+<Ivana_Posedi> a rico:Person ;
+    rico:name "Ivana Posedi" ;
+    rico:hasOrHadWorkRelationWith <HR-DAVŽ-SCKC_Koprivnica> ;
+    rico:isCreatorOf <Finding_aid> ;
+    rico:performsOrPerformed <Finding_aid_creation> .
+
+<Finding_aid_creation> a rico:Activity ;
+    rico:isOrWasPerformedBy <Ivana_Posedi> ;
+    rico:resultedIn <Finding_aid> ;
+    rico:isAssociatedWithDate [ a rico:Date ;
+								rico:normalizedDateValue "2020" ; ] .
+
+<Finding_aid> a rico:DocumentaryFormType ;
+    rico:name "Arhivski popis (AP) Mjesni narodni odbor općine Gola" ;
+    rico:hasOrHadLanguage [a rico:Language ;
+							rico:name "Croatian"; ] .
+    
+<Fonds> a rico:RecordSetType .
+
+<function9> a rico:Activity ;
+    rico:generalDescription "Protection of public health and raising public health awareness, as well as care for minors, especially those in employment; assistance for invalids of war and care for the infirm." ;
+    rico:name "Protection of public health, raising public health awareness, care for minors, assistance for invalids of war, and care for the infirm" ;
+    rico:hadPart "Protection of public health" , "Raising public health awareness" , "Care for minors" , "Assistance for invalids of war" , "Care for the infirm" ;
+    rico:history "The function was prescribed by the General Law on People's Committees in 1946." ;
+    rico:isOrWasPerformedBy <LPCGola> ;
+    rico:isActivityTypeOf <Function> .
+
+<Function> a rico:ActivityType .
+
+<GLPC> a rico:Rule ;
+    rico:name "General Law on People's Committees (OG 43/1946)" ;
+    rico:isOrWasExpressedBy <OG43-1946> ;
+    rico:regulatesOrRegulated <LPC> .
+
+<OG-43-1946> a rico:Record ;
+    rico:name "Official Gazette 43/1946" ;
+    rico:expressesOrExpressed <GLPC> .
+
+<https://dbpedia.org/page/Koprivnica> a rico:Place ;
+    rico:name "Koprivnica" ;
+    rico:Coordinates "16.8334752, 46.1639381" ;
+    rico:isOrWasLocationOfAgent <HR-DAVŽ-SCKC_Koprivnica> .
