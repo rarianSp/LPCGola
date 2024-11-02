@@ -21,7 +21,7 @@
     <functionsDescription>
         <identity>
             <functionType value="Function"/>
-            <nameEntry>Protection of public health, raising public health awareness, care for minors, assistance for war invalids, and care for the infirm</nameEntry>
+            <nameEntry>Protection of public health, raising public health awareness, care for minors, assistance for invalids of war, and care for the infirm</nameEntry>
         </identity>
         <description>
             <functionDates>
@@ -31,7 +31,7 @@
                 </dateRange>
             </functionDates>
             <functionDescription>
-                <p>Protection of public health and raising public health awareness, as well as care for minors, especially those in employment; assistance for war invalids and care for the infirm.</p>
+                <p>Protection of public health and raising public health awareness, as well as care for minors, especially those in employment; assistance for invalids of war and care for the infirm.</p>
             </functionDescription>
             <functionHistory>
                 <p>The function was prescribed by the General Law on People's Committees in 1946.</p>
@@ -44,41 +44,36 @@
             <subfunctionDescriptions>
                 <subfunction id="subfunction 9" sequence="1">
                         <identity >
-                            <identityID>9.1</identityID>
                             <functionType value="Function"/>
-                            <nameEntry>Protection of public health</nameEntry>
+                            <nameEntry>9.1 Protection of public health</nameEntry>
                         </identity>
                         <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
                 </subfunction>
                 <subfunction id="subfunction 9" sequence="2">
                         <identity >
-                            <identityID>9.2</identityID>
                             <functionType value="Function"/>
-                            <nameEntry>Raising public health awareness</nameEntry>
+                            <nameEntry>9.2 Raising public health awareness</nameEntry>
                         </identity>
                         <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
                 </subfunction>
                 <subfunction id="subfunction 9" sequence="3">
                         <identity >
-                            <identityID>9.3</identityID>
                             <functionType value="Function"/>
-                            <nameEntry>Care for minors</nameEntry>
+                            <nameEntry>9.3 Care for minors</nameEntry>
                         </identity>
                         <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
                 </subfunction>
                 <subfunction id="subfunction 9" sequence="4">
                         <identity >
-                            <identityID>9.4</identityID>
                             <functionType value="Function"/>
-                            <nameEntry>Assistance for war invalids</nameEntry>
+                            <nameEntry>9.4 Assistance for invalids of war</nameEntry>
                         </identity>
                         <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
                 </subfunction>
                 <subfunction id="subfunction 9" sequence="5">
                         <identity >
-                            <identityID>9.5</identityID>
                             <functionType value="Function"/>
-                            <nameEntry>Care for the infirm</nameEntry>
+                            <nameEntry>9.5 Care for the infirm</nameEntry>
                         </identity>
                         <description><functionDescription><p></p></functionDescription><functionAgents><functionAgent></functionAgent></functionAgents></description>
                 </subfunction>
