@@ -194,7 +194,7 @@
     rico:hasSuccessor <MPCGola> .
 
 <MPCGola> a rico:CorporateBody ;
-    rico:name "Minicipal People's Committee Gola" ;
+    rico:name "Municipal People's Committee Gola" ;
     rico:isAssociatedWithDate [ a rico:Date ;
 								rico:normalizedDateValue "1952" ; 
                                 rico:type "from" ; ] ;
