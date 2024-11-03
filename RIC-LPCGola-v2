@@ -56,7 +56,7 @@
     rico:includesTransitive <General_and_organizational_affairs> .
 
 <General_and_organizational_affairs> a rico:RecordSet ;
-    rico:name "2.1 Genaral and organizational affairs" ;
+    rico:name "2.1 General and organizational affairs" ;
     rico:isIncludedInTransitive <General_administrative_affairs> ;
     rico:includesTransitive <File_and_document_register> , <Index_of_general_documents> , <Delivery_record> , <General_documents> .
 
