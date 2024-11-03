@@ -31,6 +31,7 @@
 
 <Work_of_central_bodies> a rico:RecordSet ;
     rico:name "1 Work of central bodies" ;    
+    rico:isIncludedInTransitive <HR-DAVŽ-SCKC-126> ;
     rico:includesTransitive <Minutes_of_sessions> .
 
 <Minutes_of_sessions> a rico:Record ;
@@ -53,6 +54,7 @@
 <General_administrative_affairs> a rico:RecordSet ;
     rico:name "2 General administrative affairs" ;
     rico:directlyFollowsInSequence <Work_of_central_bodies> ;
+    rico:isIncludedInTransitive <HR-DAVŽ-SCKC-126> ;
     rico:includesTransitive <General_and_organizational_affairs> .
 
 <General_and_organizational_affairs> a rico:RecordSet ;
@@ -143,6 +145,7 @@
 <Construction_works> a rico:RecordSet ;
     rico:name "3 Construction works" ;
     rico:directlyFollowsInSequence <General_administrative_affairs> ;
+    rico:isIncludedInTransitive <HR-DAVŽ-SCKC-126> ;
     rico:includesTransitive <Building_permits> .
     
 <Building_permits> a rico:RecordSet ;
@@ -164,6 +167,7 @@
 <Financial_documents> a rico:RecordSet ;
     rico:name "4 Financial documents" ;
     rico:directlyFollowsInSequence <Construction_works> ;
+    rico:isIncludedInTransitive <HR-DAVŽ-SCKC-126> ;
     rico:includesTransitive <Tax_diary> .
 
 <Tax_diary> a rico:Record ;
