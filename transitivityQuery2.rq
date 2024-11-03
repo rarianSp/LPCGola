@@ -1,0 +1,23 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+
+SELECT DISTINCT ?a ?b ?c ?d ?topLevel WHERE {
+    ?a rico:isIncludedInTransitive ?b .
+    OPTIONAL { 
+        ?b rico:isIncludedInTransitive ?c . 
+        OPTIONAL { 
+            ?c rico:isIncludedInTransitive ?d .
+            OPTIONAL { 
+                ?d rico:isIncludedInTransitive ?topLevel .
+                OPTIONAL {
+                    ?topLevel rico:isIncludedInTransitive ?superTop .
+                    OPTIONAL {
+                        ?superTop rico:isIncludedInTransitive ?highestLevel .
+                        OPTIONAL {
+                            ?highestLevel rico:isIncludedInTransitive ?finalTop .
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
