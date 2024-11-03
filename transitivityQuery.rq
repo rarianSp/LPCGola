@@ -1,0 +1,11 @@
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
+
+SELECT DISTINCT ?a ?b ?c ?d WHERE {
+    ?a rico:isIncludedInTransitive ?b .  
+    OPTIONAL { 
+        ?b rico:isIncludedInTransitive ?c . 
+        OPTIONAL { 
+            ?c rico:isIncludedInTransitive ?d .
+        }
+    }
+}
