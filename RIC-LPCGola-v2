@@ -17,7 +17,7 @@
 							rico:unitOfMeasurement "linear meters" ; ] ;
     rico:hasRecordSetType <Fonds> ;
     rico:hasCreator <LPCGola> ;
-    rico:hasCollector <DAVŽ-SCKC> ;
+    rico:hasCollector <HR-DAVŽ-SCKC_Koprivnica> ;
     rico:recordsResourceStructure "1 Work of central bodies, 2 General administrative affairs, 3 Construction works, 4 Financial documents" ;
     rico:includesTransitive <Work_of_central_bodies> , <General_administrative_affairs> , <Construction_works> , <Financial_documents> ;
     rico:isAssociatedWithDate [ a rico:Date ;
